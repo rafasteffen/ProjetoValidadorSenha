@@ -1,7 +1,7 @@
 package validadorsenha;
 
 public class ValidadorSenha {
-
+// teste github actions
     public boolean validar(String s) {
 
         if (s == null || s.length() < 8)
