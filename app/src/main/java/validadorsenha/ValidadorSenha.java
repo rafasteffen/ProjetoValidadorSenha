@@ -10,6 +10,6 @@ public class ValidadorSenha {
         boolean digito = s.chars().anyMatch(Character::isDigit);
         boolean maiuscula = s.chars().anyMatch(Character::isUpperCase);
 
-        return digito;
+        return digito && maiuscula;
     }
 }
